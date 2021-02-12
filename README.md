@@ -23,9 +23,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Temmarie/Bookstore/tree/development">
-    <img src="https://github.com/OA7/React_Calculator/raw/milestone_1/public/calc.png" alt="Logo" width="80" height="80">
-  </a>
+  <a href="https://github.com/Temmarie/Bookstore/">
+   </a>
 
   <h3 align="center">Bookstore</h3>
 
@@ -51,11 +50,10 @@
 
 # About The Project
 
-This is a simple calculator app built with react.
+This is a simple bookstore app built with react-redux.
 <br />
-<img src="https://github.com/OA7/React_Calculator/raw/milestone_1/public/calculator.png" />
 
-# [Live Link](https://calculator-e53e1.web.app/)
+# [Live Link](https://bookstore-97529.web.app)
 
 ## Built With
 
@@ -66,8 +64,8 @@ This is a simple calculator app built with react.
 - [Jest](https://jestjs.io/docs/en/getting-started)
 - [ReactJs](https://reactjs.org/)
 - [prop-types library](https://www.npmjs.com/package/prop-types)
-- [big.js](https://github.com/MikeMcl/big.js/)
 - [firebase](https://firebase.google.com/)
+- [redux]
 <hr>
 
 <!-- GETTING STARTED -->
@@ -85,7 +83,7 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repo
 
 ```sh
-git clone https://github.com/Temmarie/Calculator-App.git
+git clone https://github.com/Temmarie/Bookstore.git
 ```
 
 2. Open with your favorite text editor.
@@ -122,11 +120,11 @@ Give a ⭐️ if you like this project!!
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/temmarie/calculator-app.svg?style=flat-square
-[contributors-url]: https://github.com/temmarie/https://github.com/temmarie/calculator-app.git/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/temmarie/calculator-app.svg?style=flat-square
-[forks-url]: https://github.com/temmarie/calculator-app/network/members
-[stars-shield]: https://img.shields.io/github/stars/temmarie/calculator-app.svg?style=flat-square
-[stars-url]: https://github.com/temmarie/calculator-app/stargazers
-[issues-shield]: https://img.shields.io/github/issues/temmarie/calculator-app.svg?style=flat-square
-[issues-url]: https://github.com/temmarie/calculator-app/issues
+[contributors-shield]: https://img.shields.io/github/contributors/temmarie/bookstore.svg?style=flat-square
+[contributors-url]: https://github.com/temmarie/https://github.com/temmarie/bookstore.git/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/temmarie/bookstore.svg?style=flat-square
+[forks-url]: https://github.com/temmarie/bookstore/network/members
+[stars-shield]: https://img.shields.io/github/stars/temmarie/bookstore.svg?style=flat-square
+[stars-url]: https://github.com/temmarie/bookstore/stargazers
+[issues-shield]: https://img.shields.io/github/issues/temmarie/bookstore.svg?style=flat-square
+[issues-url]: https://github.com/temmarie/bookstore/issues
