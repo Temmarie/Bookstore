@@ -65,7 +65,7 @@ This is a simple bookstore app built with react-redux.
 - [ReactJs](https://reactjs.org/)
 - [prop-types library](https://www.npmjs.com/package/prop-types)
 - [firebase](https://firebase.google.com/)
-- [redux]
+- [redux](https://redux.js.org/introduction/getting-started)
 <hr>
 
 <!-- GETTING STARTED -->
