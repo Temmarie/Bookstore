@@ -12,7 +12,6 @@ const booksReducer = (state = initState || [], action) => {
   if (action.type === 'REMOVE_BOOK') {
     const allBooks = state.books.filter(book => book.id !== action.book.id);
     return {
-      ...state,
       books: allBooks,
     };
   }
