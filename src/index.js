@@ -6,24 +6,24 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import allReducers from './reducers/index';
 
-export const initState = {
+ const initState = {
   books: [
     {
       author: 'JK Rowlings',
-      id: Math.random(),
+      id: Math.random() * 100,
       title: 'Harry Potter',
       category: 'Sci-Fi',
     },
     {
       author: 'Ross James',
-      id: Math.random(),
+      id: Math.random() * 100,
       title: 'Survivor',
       category: 'Action',
     },
   ],
 };
 
-const store = createStore(allReducers);
+const store = createStore(allReducers, initState);
 
 ReactDOM.render(
   <Provider store={store}>
