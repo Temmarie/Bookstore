@@ -27,7 +27,7 @@ class BookForm extends Component {
   handleSubmit = e => {
     e.preventDefault();
     this.props.createBook(this.state);
-    e.tatget.reset();
+    e.target.reset();
     this.resetState();
   }
 
