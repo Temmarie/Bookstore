@@ -18,17 +18,17 @@ class BookForm extends Component {
     this.handleChange = this.handleChange.bind(this);
   }
 
-  handleChange = e => {
-    this.setState({
-      [e.target.name]: e.target.value,
-    });
-  }
-
   handleSubmit = e => {
     e.preventDefault();
     this.props.createBook(this.state);
     e.target.reset();
     this.resetState();
+  }
+
+  handleChange({ target: { name, value } }) {
+    this.setState({
+      [name]: value,
+    });
   }
 
   resetState() {
