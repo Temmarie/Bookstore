@@ -12,10 +12,16 @@ class BookForm extends Component {
       author: '',
       id: Math.random(),
       title: '',
-      category: '',
+      category: 'Action',
     };
 
     this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange = e => {
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
   }
 
   handleSubmit = e => {
@@ -23,12 +29,6 @@ class BookForm extends Component {
     this.props.createBook(this.state);
     e.target.reset();
     this.resetState();
-  }
-
-  handleChange({ target: { name, value } }) {
-    this.setState({
-      [name]: value,
-    });
   }
 
   resetState() {
@@ -57,20 +57,13 @@ class BookForm extends Component {
     ));
 
     return (
-      <form onSubmit={this.handleSubmit}>
-        <label htmlFor="author">
-          Author:
-          <input name="author" type="text" onChange={this.handleChange} />
-        </label>
-        <label htmlFor="title">
-          Title:
-          <input name="title" type="text" onChange={this.handleChange} />
-        </label>
-
-        <select name="category" onChange={this.handleChange} value={this.state.category}>
+      <form onSubmit={this.handleSubmit} className="book-form">
+        <input name="author" type="text" onChange={this.handleChange} placeholder="Author Name" required />
+        <input name="title" type="text" onChange={this.handleChange} placeholder="Book Title" required />
+        <select name="category" onChange={this.handleChange} value={this.state.category} className="select-tag">
           {catList}
         </select>
-        <button type="submit">Submit</button>
+        <button type="submit">Add Book</button>
       </form>
     );
   }
