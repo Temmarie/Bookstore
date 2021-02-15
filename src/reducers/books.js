@@ -2,16 +2,16 @@
 const initState = {
   books: [
     {
-      author: 'JK Rowlings',
+      author: 'JR Tolkien',
       id: Math.random(),
-      title: 'Harry Potter',
+      title: 'Hobitt',
       category: 'Sci-Fi',
     },
     {
-      author: 'Ross James',
+      author: 'Stephen King',
       id: Math.random(),
-      title: 'Survivor',
-      category: 'Action',
+      title: 'Black House',
+      category: 'Horror',
     },
   ],
 };
